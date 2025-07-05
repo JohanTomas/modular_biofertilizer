@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BioSynth - Biofertilizante Natural Modular</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-leaf"></i>
+                <span>BioSynth</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#que-es">¿Qué es?</a></li>
+                <li><a href="#modulos">Módulos</a></li>
+                <li><a href="#proceso">Proceso</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="highlight">BioSynth</span>
+                    <br>El Futuro de la Agricultura Sostenible
+                </h1>
+                <p class="hero-subtitle">
+                    Biofertilizante natural modular que nutre, protege y regenera. 
+                    Una solución completa para cultivos saludables y suelos fértiles.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" onclick="scrollToSection('modulos')">
+                        <i class="fas fa-play"></i>
+                        Conoce Nuestros Módulos
+                    </button>
+                    <button class="btn btn-secondary" onclick="scrollToSection('que-es')">
+                        <i class="fas fa-info-circle"></i>
+                        Más Información
+                    </button>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-cards">
+                    <div class="card card-1">
+                        <i class="fas fa-seedling"></i>
+                        <span>Nutrición</span>
+                    </div>
+                    <div class="card card-2">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>Protección</span>
+                    </div>
+                    <div class="card card-3">
+                        <i class="fas fa-recycle"></i>
+                        <span>Regeneración</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-bg">
+            <div class="bg-circle circle-1"></div>
+            <div class="bg-circle circle-2"></div>
+            <div class="bg-circle circle-3"></div>
+        </div>
+    </section>
+
+    <!-- What is BioSynth Section -->
+    <section id="que-es" class="what-is">
+        <div class="container">
+            <div class="section-header">
+                <h2>¿Qué es BioSynth?</h2>
+                <p>Una revolución en la agricultura sostenible</p>
+            </div>
+            <div class="what-is-content">
+                <div class="what-is-text">
+                    <p class="lead">
+                        BioSynth es un biofertilizante líquido natural, desarrollado con el propósito de ofrecer una alternativa efectiva, sostenible y accesible frente al uso excesivo de fertilizantes químicos.
+                    </p>
+                    <p>
+                        Su fórmula busca nutrir la planta, protegerla de plagas y enfermedades, y regenerar los suelos agotados, todo en una sola aplicación.
+                    </p>
+                    <div class="features-grid">
+                        <div class="feature">
+                            <i class="fas fa-leaf"></i>
+                            <h4>100% Natural</h4>
+                            <p>Ingredientes orgánicos y biodegradables</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-cogs"></i>
+                            <h4>Modular</h4>
+                            <p>Sistema adaptable a diferentes cultivos</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-heart"></i>
+                            <h4>Sostenible</h4>
+                            <p>Cuida el medio ambiente y la salud</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="what-is-visual">
+                    <div class="problem-solution">
+                        <div class="problem">
+                            <h4><i class="fas fa-exclamation-triangle"></i> El Problema</h4>
+                            <ul>
+                                <li>Fertilizantes químicos costosos</li>
+                                <li>Múltiples aplicaciones necesarias</li>
+                                <li>Contaminación del suelo y agua</li>
+                                <li>Deterioro de la biodiversidad</li>
+                            </ul>
+                        </div>
+                        <div class="solution">
+                            <h4><i class="fas fa-check-circle"></i> La Solución</h4>
+                            <ul>
+                                <li>Una sola aplicación completa</li>
+                                <li>Ingredientes naturales accesibles</li>
+                                <li>Regeneración del suelo</li>
+                                <li>Protección del medio ambiente</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modules Section -->
+    <section id="modulos" class="modules">
+        <div class="container">
+            <div class="section-header">
+                <h2>Estructura Modular de BioSynth</h2>
+                <p>Un fertilizante con diseño inteligente, adaptable y eficiente</p>
+            </div>
+            <div class="modules-grid">
+                <div class="module-card module-1">
+                    <div class="module-icon">
+                        <i class="fas fa-seedling"></i>
+                    </div>
+                    <h3>Módulo 1: Nutrición y Crecimiento</h3>
+                    <p>Nutre la planta desde la raíz hasta la hoja con macro y micronutrientes esenciales.</p>
+                    <div class="ingredients">
+                        <h4>Ingredientes Clave:</h4>
+                        <ul>
+                            <li>Algas marinas</li>
+                            <li>Cáscara de plátano</li>
+                            <li>Melaza</li>
+                            <li>Agua de arroz fermentada</li>
+                            <li>Ácido húmico</li>
+                            <li>Cáscara de huevo</li>
+                            <li>Agua de pescado fermentada</li>
+                            <li>Harina de alfalfa</li>
+                            <li>Extracto de yuca</li>
+                            <li>Suero de leche</li>
+                            <li>Harina de pescado</li>
+                            <li>Posos de café</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="module-card module-2">
+                    <div class="module-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Módulo 2: Protección Natural</h3>
+                    <p>Acción insecticida, fungicida y repelente contra plagas comunes.</p>
+                    <div class="ingredients">
+                        <h4>Ingredientes Clave:</h4>
+                        <ul>
+                            <li>Ajo</li>
+                            <li>Ají</li>
+                            <li>Cebolla</li>
+                            <li>Ruda</li>
+                            <li>Yeso agrícola</li>
+                            <li>Bicarbonato de sodio</li>
+                            <li>Canela en polvo</li>
+                            <li>Vinagre (blanco y de manzana)</li>
+                            <li>Clavo de olor</li>
+                            <li>Cúrcuma</li>
+                            <li>Agua oxigenada</li>
+                            <li>Leche</li>
+                            <li>Eucalipto</li>
+                            <li>Cola de caballo</li>
+                            <li>Purín de ortiga</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="module-card module-3">
+                    <div class="module-icon">
+                        <i class="fas fa-recycle"></i>
+                    </div>
+                    <h3>Módulo 3: Regeneración de Suelos</h3>
+                    <p>Revitaliza suelos dañados mejorando estructura y capacidad de retención.</p>
+                    <div class="ingredients">
+                        <h4>Ingredientes Clave:</h4>
+                        <ul>
+                            <li>Quitina en polvo</li>
+                            <li>Biochar (carbón vegetal activado)</li>
+                            <li>Extracto de yuca</li>
+                            <li>Harina de alfalfa</li>
+                            <li>Gallinaza (controlada y procesada)</li>
+                            <li>Suero de leche (activador microbiológico)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section id="proceso" class="process">
+        <div class="container">
+            <div class="section-header">
+                <h2>Proceso de Elaboración</h2>
+                <p>Desarrollado con enfoque riguroso, técnico y sistemático</p>
+            </div>
+            <div class="process-content">
+                <div class="process-intro">
+                    <p>
+                        A pesar de ser un proyecto estudiantil, BioSynth ha sido desarrollado con un enfoque riguroso, técnico y sistemático. Cada módulo fue elaborado siguiendo principios agrobiológicos, priorizando la eficacia, la compatibilidad y la sostenibilidad.
+                    </p>
+                </div>
+                
+                <div class="process-steps">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h4>Fermentación Controlada</h4>
+                            <p>Se aplicaron técnicas de fermentación anaeróbica y aeróbica, según las necesidades de cada ingrediente.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h4>Extracción Líquida</h4>
+                            <p>Se realizaron extracciones mediante maceración, infusión o descomposición biológica controlada.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h4>Incorporación de Nutrientes</h4>
+                            <p>Se incorporaron ingredientes como cáscara de plátano, algas marinas y melaza para aportar nutrientes esenciales (NPK).</p>
+                        </div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-number">4</div>
+                        <div class="step-content">
+                            <h4>Extractos Insecticidas</h4>
+                            <p>Se elaboraron extractos con tiempos exactos de remojo y filtración para maximizar su potencia.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-number">5</div>
+                        <div class="step-content">
+                            <h4>Preparación Regeneradora</h4>
+                            <p>Ingredientes como quitina, biochar y extracto de yuca fueron preparados para mejorar la estructura del suelo.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-number">6</div>
+                        <div class="step-content">
+                            <h4>Filtrado y Estabilización</h4>
+                            <p>Todos los ingredientes pasaron por un proceso de filtrado, estabilización y rotulado, asegurando un producto uniforme y profesional.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="fermentation-section">
+                    <h3>Proceso Predominante: La Fermentación</h3>
+                    <p>En el desarrollo de BioSynth, el proceso más utilizado fue la fermentación, debido a su capacidad para liberar nutrientes, estabilizar compuestos y potenciar la acción biológica de los ingredientes naturales.</p>
+                    
+                    <div class="fermentation-types">
+                        <div class="fermentation-type">
+                            <h4><i class="fas fa-microscope"></i> Fermentación Anaeróbica</h4>
+                            <p>Sin oxígeno, ideal para ingredientes como el guano de vaca, melaza, agua de arroz fermentada y extractos vegetales ricos en carbono.</p>
+                        </div>
+                        <div class="fermentation-type">
+                            <h4><i class="fas fa-wind"></i> Fermentación Aeróbica</h4>
+                            <p>Con oxígeno, usada en preparaciones como los purines, permitiendo la activación microbiana y liberación rápida de nutrientes.</p>
+                        </div>
+                    </div>
+
+                    <div class="benefits">
+                        <h4>Beneficios de la Fermentación:</h4>
+                        <ul>
+                            <li>Permite conservar el fertilizante de forma natural</li>
+                            <li>Activa microorganismos beneficiosos</li>
+                            <li>Mejora la disponibilidad de minerales esenciales</li>
+                            <li>Reduce el riesgo de toxicidad por exceso de sales</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq">
+        <div class="container">
+            <div class="section-header">
+                <h2>Preguntas Frecuentes</h2>
+                <p>Todo lo que necesitas saber sobre BioSynth</p>
+            </div>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>¿Qué es BioSynth?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Es un biofertilizante natural y modular que mejora el crecimiento de las plantas, combate plagas y regenera suelos dañados. Todo con ingredientes orgánicos y sostenibles.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>¿En qué se diferencia BioSynth de los fertilizantes químicos?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>A diferencia de los productos químicos, BioSynth no daña la salud, ni el medio ambiente. Nutre, protege y regenera sin contaminar el agua ni la tierra.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>¿Por qué tiene tres módulos?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Cada módulo cumple una función específica: Módulo 1 para nutrición vegetal intensiva, Módulo 2 para control de plagas y hongos, y Módulo 3 para regeneración del suelo. Esto permite personalizar su uso según las necesidades del cultivo.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>¿Qué ingredientes contiene BioSynth?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Incluye más de 30 ingredientes naturales como algas marinas, ajo, ruda, alfalfa, melaza, agua de arroz, quitina, entre otros. Todos elegidos por su efectividad y accesibilidad.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>¿Cómo se aplica BioSynth?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Se diluye en agua y se aplica directamente al suelo o como riego foliar, según el módulo utilizado. No requiere maquinaria especial.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>¿BioSynth es seguro para el ambiente?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Sí. Todos los ingredientes son biodegradables y no dejan residuos tóxicos. Incluso mejora la calidad del suelo con el uso continuo.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>¿Puede usarse en cualquier cultivo?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Sí, está diseñado para ser compatible con cultivos como papa, maíz, hortalizas y frutales. Es un biofertilizante versátil.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>¿Cómo se conserva BioSynth?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Requiere envases adecuados y ventilación para evitar presión interna por fermentación. Es recomendable preparar dosis por campaña.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contacto</h2>
+                <p>¿Tienes preguntas sobre BioSynth? ¡Contáctanos!</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>info@biosynth.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Teléfono</h4>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Ubicación</h4>
+                            <p>Universidad Nacional de Colombia</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Nombre completo" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Asunto">
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Mensaje" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i>
+                            Enviar Mensaje
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-leaf"></i>
+                        <span>BioSynth</span>
+                    </div>
+                    <p>El futuro de la agricultura sostenible está aquí. BioSynth: nutre, protege y regenera.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#que-es">¿Qué es?</a></li>
+                        <li><a href="#modulos">Módulos</a></li>
+                        <li><a href="#proceso">Proceso</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Módulos</h4>
+                    <ul>
+                        <li><a href="#modulos">Nutrición y Crecimiento</a></li>
+                        <li><a href="#modulos">Protección Natural</a></li>
+                        <li><a href="#modulos">Regeneración de Suelos</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> info@biosynth.com</li>
+                        <li><i class="fas fa-phone"></i> +1 (555) 123-4567</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Universidad Nacional</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 BioSynth. Todos los derechos reservados. Desarrollado con <i class="fas fa-heart"></i> para la agricultura sostenible.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
